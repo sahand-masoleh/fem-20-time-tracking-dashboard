@@ -29,3 +29,7 @@
 .fw-700 {
 	font-weight: 700;
 }
+
+.period-btn {
+	cursor: pointer;
+}

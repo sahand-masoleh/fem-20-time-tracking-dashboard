@@ -12,36 +12,18 @@
 <body>
 
   <main>
-    <div class="card-container">
+    <div class="card-container card-container--head">
       <div class="card card__top card__top--head">
         <img src="images/image-jeremy.png" alt="" class="card__avatar">
         <p class="fs-s fc-d">Report for</p>
         <h1 class="fs-l fc-l">Jeremy Robson</h1>
       </div>
       <div class="card card__bottom card__bottom--head">
-        <p class="fs-m fc-d">Daily</p>
-        <p class="fs-m fc-l">Weekly</p>
-        <p class="fs-m fc-d">Monthly</p>
+        <p class="fs-m fc-d period-btn" data-period="daily">Daily</p>
+        <p class="fs-m fc-d period-btn" data-period="weekly">Weekly</p>
+        <p class="fs-m fc-d period-btn" data-period="monthly">Monthly</p>
       </div>
     </div>
-
-    <!-- <div class="card-container">
-      <div class="card card__bottom card__bottom--list" data-type="work">
-        <img src="./images/icon-work.svg" alt="" class="card__background">
-      </div>
-      <div class="card card__top card__top--list">
-        <div class="card__title">
-          <h2 class="fs-m fc-l fw-500">
-            Work
-          </h2>
-          <p class="fs-m fc-d">●●●</p>
-        </div>
-        <div class="card__stats">
-          <p class="fs-xl fc-l">32hrs</p>
-          <p class="fs-s fc-d">Last Week - 36hrs</p>
-        </div>
-      </div>
-    </div> -->
   </main>
 
   <footer class="footer">
@@ -49,7 +31,7 @@
     Coded by <a href="#" target="_blank">Sahand Masoleh</a>.
   </footer>
 
-  <script src="./app.js"></script>
+  <script type="module" src="./app.js" defer></script>
 </body>
 
 </html>
