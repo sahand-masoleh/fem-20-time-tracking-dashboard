@@ -1,0 +1,27 @@
+.fs-l {
+	font-size: 1.5em;
+}
+
+.fs-m {
+	font-size: 1.25em;
+}
+
+.fs-s {
+	font-size: 0.75;
+}
+
+.fc-l {
+	color: var(--light-text);
+}
+
+.fc-d {
+	color: var(--dark-text);
+}
+
+.fw-500 {
+	font-weight: 500;
+}
+
+.fw-700 {
+	font-weight: 700;
+}

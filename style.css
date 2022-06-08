@@ -1,33 +1,51 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap");
 
+@import url(./styles/card.css);
+@import url(./styles/misc.css);
+
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 	font-family: "Rubik", sans-serif;
+	font-weight: 300;
 }
 
 :root {
 	/* ### primary */
 	--blue: hsl(246, 80%, 60%);
-	--light-red---work: hsl(15, 100%, 70%);
-	--soft-blue---play: hsl(195, 74%, 62%);
-	--light-red---study: hsl(348, 100%, 68%);
-	--lime-green---exercise: hsl(145, 58%, 55%);
-	--violet---social: hsl(264, 64%, 52%);
-	--soft-orange---self-care: hsl(43, 84%, 65%);
+	--work: hsl(15, 100%, 70%);
+	--play: hsl(195, 74%, 62%);
+	--study: hsl(348, 100%, 68%);
+	--exercise: hsl(145, 58%, 55%);
+	--social: hsl(264, 64%, 52%);
+	--self-care: hsl(43, 84%, 65%);
 
 	/* ### neutral */
 	--very-dark-blue: hsl(226, 43%, 10%);
 	--dark-blue: hsl(235, 46%, 20%);
 	--desaturated-blue: hsl(235, 45%, 61%);
 	--pale-blue: hsl(236, 100%, 87%);
+
+	--light-text: rgb(255, 255, 255, 0.9);
+	--dark-text: rgb(255, 255, 255, 0.4);
+
+	--gap-1: 1em;
+	--gap-2: 2em;
 }
 
 body {
 	min-height: 100vh;
 	display: grid;
 	grid-template-rows: 1fr auto;
+	background-color: var(--very-dark-blue);
+}
+
+main {
+	display: grid;
+	margin: 5em 5%;
+	height: fit-content;
+	gap: var(--gap-1);
 }
 
 /* || FOOTER */
