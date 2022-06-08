@@ -43,10 +43,29 @@
 /* || LIST */
 
 .card__bottom--list {
+	height: calc(var(--gap-2) * 2);
+	margin-bottom: calc(-1 * var(--gap-2));
+	overflow: hidden;
 }
-
+.card__background {
+	position: absolute;
+	right: 1em;
+	top: -1em;
+}
 .card__top--list {
 	background-color: var(--dark-blue);
+	display: grid;
+	grid-auto-rows: auto 1fr;
+	gap: var(--gap-1);
+}
+.card__title {
+	display: flex;
+	justify-content: space-between;
+}
+.card__stats {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
 }
 
 /* || TOPIC-SPECIFIC COLORS */

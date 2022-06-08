@@ -1,3 +1,7 @@
+.fs-xl {
+	font-size: 2em;
+}
+
 .fs-l {
 	font-size: 1.5em;
 }
@@ -7,7 +11,7 @@
 }
 
 .fs-s {
-	font-size: 0.75;
+	font-size: 0.9em;
 }
 
 .fc-l {
