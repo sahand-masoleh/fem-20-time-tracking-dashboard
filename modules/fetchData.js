@@ -35,7 +35,7 @@ async function fetchData(period) {
 		type.innerText = topic.title;
 		//              <p class="fs-m fc-d">
 		const menu = document.createElement("p");
-		menu.classList.add("fs-m", "fc-d");
+		menu.classList.add("fs-m", "fc-d", "menu-btn");
 		menu.innerText = "●●●";
 		//          </div>
 		title.append(type, menu);

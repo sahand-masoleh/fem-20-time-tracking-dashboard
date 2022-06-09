@@ -28,7 +28,6 @@
 	--pale-blue: hsl(236, 100%, 87%);
 
 	--light-text: rgb(255, 255, 255, 0.9);
-	--dark-text: rgb(255, 255, 255, 0.4);
 
 	--gap-1: 1em;
 	--gap-2: 2em;
@@ -38,6 +37,7 @@ body {
 	min-height: 100vh;
 	display: grid;
 	grid-template-rows: 1fr auto;
+	justify-items: center;
 	background-color: var(--very-dark-blue);
 }
 
@@ -58,4 +58,17 @@ main {
 
 .footer a {
 	color: var(--work);
+}
+
+@media screen and (min-width: 768px) {
+	body {
+		place-items: center;
+	}
+
+	main {
+		margin: 5%;
+		grid-template-columns: repeat(4, 1fr);
+		grid-template-rows: repeat(2, 1fr);
+		gap: var(--gap-2);
+	}
 }

@@ -19,7 +19,7 @@
 }
 
 .fc-d {
-	color: var(--dark-text);
+	color: var(--pale-blue);
 }
 
 .fw-500 {
@@ -30,6 +30,26 @@
 	font-weight: 700;
 }
 
-.period-btn {
+.period-btn,
+.menu-btn {
 	cursor: pointer;
+}
+
+.period-btn:hover,
+.menu-btn:hover {
+	color: white;
+}
+
+@media screen and (min-width: 768px) {
+	.fs-xl {
+		font-size: 3.5em;
+	}
+
+	.fs-l {
+		font-size: 2.5em;
+	}
+
+	.fs-m {
+		font-size: 1em;
+	}
 }
